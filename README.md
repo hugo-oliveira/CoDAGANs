@@ -9,8 +9,12 @@ If you have any doubt regarding the paper, methodology or code, please contact o
 
 ## Training.
 For training a CoDAGAN from scratch using config file CXR_lungs_MUNIT_1.0.yaml:
+```
 python train.py --config configs/CXR_lungs_MUNIT_1.0.yaml
+```
 
 ## Testing.
 For testing epoch 400 of a pretrained CoDAGAN with configs CXR_lungs_MUNIT_1.0.yaml:
+```
 python test.py --load 400 --snapshot_dir outputs/CXR_lungs_MUNIT_1.0/checkpoints/ --config configs/CXR_lungs_MUNIT_1.0.yaml
+```
