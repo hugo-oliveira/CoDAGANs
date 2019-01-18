@@ -18,3 +18,6 @@ For testing epoch 400 of a pretrained CoDAGAN with configs CXR_lungs_MUNIT_1.0.y
 ```
 python test.py --load 400 --snapshot_dir outputs/CXR_lungs_MUNIT_1.0/checkpoints/ --config configs/CXR_lungs_MUNIT_1.0.yaml
 ```
+
+## Acknowledgment
+Authors would like to thank NVIDIA for the donation of the GPUs and for the financial support provided by CAPES, CNPq and FAPEMIG (APQ-00449-17) that allowed the execution of this work
